@@ -1,0 +1,54 @@
+element.style{
+	padding:14px;
+	white-space: nowrap;
+}
+
+.Eqh {
+	flex:0 0 auto;
+}
+
+.mQ8{
+	justify-content: center;
+}
+
+.KS5{
+	align-items: center;
+}
+
+.Hsu{
+	box-sizing: border-box;
+}
+
+.Jea{
+	display: flex;
+	flex-direction: row;
+}
+
+.tg7{
+	text-align: center;
+}
+
+.H2s{
+	font-weight: 600;
+	font-weight: var(--font-weight-semibold);
+}
+
+.iFc {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3,Hiragino Kaku Gothic Pro,ãƒ¡ã‚¤ãƒªã‚ª,Meiryo,ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-family: var(--font-family-default-latin);
+}
+
+.sAJ {
+    font-size: 16px;
+    font-size: var(--font-size-300);
+}
+
+.dyH {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.O2T {
+    color: #111;
+    color: var(--color-text-default);
+}
