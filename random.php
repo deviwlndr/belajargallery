@@ -36,7 +36,7 @@
           <a style="color: #815B5B;"class="nav-link active" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a style="color: #815B5B;" class="nav-link" href="#">Make</a>
+          <a style="color: #815B5B;" class="nav-link" href="formUpload.php">Make</a>
         </li>
         <div class="dropdown">
         <button style="color: #815B5B;" class="btn btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,7 +53,7 @@
   </div>
   <ul class="navbar-nav ms-auto">
         <button type="nav-item" class="btn btn" style="background-color: #E69B06;">
-          <a style="color: #FFFFFF;" class="nav-link active" href="#">Login</a></button>
+          <a style="color: #FFFFFF;" class="nav-link active" href="login.php">Login</a></button>
         </li>
     </div>
   </div>

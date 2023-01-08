@@ -9,7 +9,8 @@
     <!-- Boostrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 
   </head>
   <body>
@@ -36,7 +37,7 @@
           <a style="color: #815B5B;"class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a style="color: #815B5B;" class="nav-link" href="#">Make</a>
+          <a style="color: #815B5B;" class="nav-link" href="formUpload.php">Make</a>
         </li>
         <div class="dropdown">
         <button style="color: #815B5B;" class="btn btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,7 +54,7 @@
   </div>
   <ul class="navbar-nav ms-auto">
         <button type="nav-item" class="btn btn" style="background-color: #E69B06;">
-          <a style="color: #FFFFFF;" class="nav-link active" href="#">Login</a></button>
+          <a style="color: #FFFFFF;" class="nav-link active" href="login.php">Login</a></button>
         </li>
 </nav>
     </div>
@@ -598,44 +599,32 @@
 
 <!--footer-->
 <footer class="footer">
-  <div class="akhir">
-    <div class="row">
-    
-        <div class="footer-col">
-          <h4>Our Team</h4>
-          <ul>
-            <li><a href="#">Rayfan</a></li>
-            <li><a href="#">Devi</a></li>
-            <li><a href="#">Ruth</a></li>
-            
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Get Help</h4>
-          <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">shipping</a></li>
-            <li><a href="#">returns</a></li>
-            <li><a href="#">order status</a></li>
-            <li><a href="#">payment options</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-col">
-          <h4>follow us</h4>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Kelompok Website Gallery</h4>
+            <ul>
+              <li><a href="#">Mochammad Rayfan Aqbillah</a></li>
+              <li><a href="#">Devi Wulandari</a></li>
+              <li><a href="#">Ruth Diana Purnamasari Sagala</a></li>
+  
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow us on</h4>
+            <div class="social-media">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
           </div>
         </div>
       </div>
-     </div>
-  </footer>
-
-
-
+    </footer>
+    <div class="fixed-footer">
+      <div class="container">Copyright &copy;</div>
+    </div>
+    </div>
 <script src="script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
