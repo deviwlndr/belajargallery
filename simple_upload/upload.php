@@ -5,10 +5,13 @@
     $nama = $_POST['nama'];
     move_uploaded_file($file_tmp, 'file/' .$foto);
     $query = "INSERT INTO siswa SET
+                                     
                                     nama = '$nama',
                                     foto = '$foto'
+    
     ";
-    mysqli_query($koneksi, $query)
+    
+    mysqli_query($conn, $query)
     or die("SQL Error " .mysqli_error());
     header('location:index.php');
 ?>
