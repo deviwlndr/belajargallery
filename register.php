@@ -54,7 +54,7 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" type="text/css" href=""assets/css/login.css">
  
  
-    <title>Niagahoster Register</title>
+    <title>Register</title>
 </head>
 <body>
     <div class="container">
