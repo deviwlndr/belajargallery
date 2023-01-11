@@ -7,7 +7,7 @@ error_reporting(0);
 session_start();
  
 if (isset($_SESSION['username'])) {
-    header("Location: index.php");
+    header("Location: login.php");
 }
  
 if (isset($_POST['submit'])) {
@@ -51,10 +51,9 @@ if (isset($_POST['submit'])) {
  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
  
-    <link rel="stylesheet" type="text/css" href=""assets/css/login.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/login.css">
  
- 
-    <title>Register</title>
+    <title>Niagahoster Register</title>
 </head>
 <body>
     <div class="container">
@@ -75,7 +74,7 @@ if (isset($_POST['submit'])) {
             <div class="input-group">
                 <button name="submit" class="btn">Register</button>
             </div>
-            <p class="login-register-text">Anda sudah punya akun? <a href="index.php">Login </a></p>
+            <p class="login-register-text">Anda sudah punya akun? <a href="login.php">Login </a></p>
         </form>
     </div>
 </body>

@@ -13,5 +13,4 @@
     
     mysqli_query($conn, $query)
     or die("SQL Error " .mysqli_error());
-    header('location:index.php');
-?>
+    header('location: up.php');

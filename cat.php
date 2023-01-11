@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/cat.css">
-
+    <link rel="stylesheet" href="assets/css/footer.css">
   </head>
   <body>
 
@@ -25,11 +25,6 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <form class="d-flex ms-auto" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-light" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-        </svg></button>
       </form> 
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
@@ -103,6 +98,35 @@
 <div class="btna">
   <a href="#">More</a>
 </div>
+
+<!--footer-->
+<footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Kelompok Website Gallery</h4>
+            <ul>
+              <li><a href="#">Mochammad Rayfan Aqbillah</a></li>
+              <li><a href="#">Devi Wulandari</a></li>
+              <li><a href="#">Ruth Diana Purnamasari Sagala</a></li>
+  
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Follow us on</h4>
+            <div class="social-media">
+            <a href="https://www.instagram.com/rryfanaqbil_/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.instagram.com/ieudevi/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.instagram.com/rut2216/"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="fixed-footer">
+      <div class="container">Copyright &copy;</div>
+    </div>
+    </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 

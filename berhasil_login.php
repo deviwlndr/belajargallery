@@ -3,7 +3,7 @@
 session_start();
  
 if (!isset($_SESSION['username'])) {
-    header("Location: login.php");
+    header("Location: index.php");
 }
  
 ?>
@@ -24,7 +24,9 @@ if (!isset($_SESSION['username'])) {
             <?php echo "<h1>Selamat Datang, " . $_SESSION['username'] ."!". "</h1>"; ?>
              
             <div class="input-group">
-            <a href="logout.php" class="btn">Logout</a>
+            <a href="logout.php" class="btn">Logout    
+            <a href="index.php" class="btn">Back Home</a>
+            
             </div>
         </form>
     </div>

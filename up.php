@@ -35,7 +35,7 @@
                         </div>
                         <div class="col-mb-9">
                             <h2><?php echo $row['nama'] ; ?> </h2>
-                            <a href="delete.php?id=<?php echo $row['id']; ?>" class="btn btn-danger mt-4">Delete</a>
+                            <a href="delete.php?id=<?php echo $row['id_siswa']; ?>" class="btn btn-danger mt-4">Delete</a>
                         </div>
                         
                         </div>
